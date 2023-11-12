@@ -8,3 +8,5 @@ allow hal_camera_default mnt_vendor_file:dir { search };
 allow hal_camera_default proc_stat:file { open read };
 allow hal_camera_default vendor_xdsp_device:chr_file { read };
 allow hal_camera_default system_data_file:dir { search };
+allow hal_camera_default default_prop:file { read };
+allow hal_camera_default default_prop:file { open };
